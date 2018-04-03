@@ -51,8 +51,8 @@
             this.A00.Name = "A00";
             this.A00.Size = new System.Drawing.Size(75, 65);
             this.A00.TabIndex = 0;
-            this.A00.Text = "A00";
             this.A00.UseVisualStyleBackColor = true;
+            this.A00.Click += new System.EventHandler(this.buttonClick);
             // 
             // A01
             // 
@@ -60,8 +60,8 @@
             this.A01.Name = "A01";
             this.A01.Size = new System.Drawing.Size(75, 65);
             this.A01.TabIndex = 1;
-            this.A01.Text = "A01";
             this.A01.UseVisualStyleBackColor = true;
+            this.A01.Click += new System.EventHandler(this.buttonClick);
             // 
             // A02
             // 
@@ -69,8 +69,8 @@
             this.A02.Name = "A02";
             this.A02.Size = new System.Drawing.Size(75, 65);
             this.A02.TabIndex = 2;
-            this.A02.Text = "A02";
             this.A02.UseVisualStyleBackColor = true;
+            this.A02.Click += new System.EventHandler(this.buttonClick);
             // 
             // A12
             // 
@@ -78,8 +78,8 @@
             this.A12.Name = "A12";
             this.A12.Size = new System.Drawing.Size(75, 65);
             this.A12.TabIndex = 5;
-            this.A12.Text = "A12";
             this.A12.UseVisualStyleBackColor = true;
+            this.A12.Click += new System.EventHandler(this.buttonClick);
             // 
             // A11
             // 
@@ -87,8 +87,8 @@
             this.A11.Name = "A11";
             this.A11.Size = new System.Drawing.Size(75, 65);
             this.A11.TabIndex = 4;
-            this.A11.Text = "A11";
             this.A11.UseVisualStyleBackColor = true;
+            this.A11.Click += new System.EventHandler(this.buttonClick);
             // 
             // A10
             // 
@@ -96,8 +96,8 @@
             this.A10.Name = "A10";
             this.A10.Size = new System.Drawing.Size(75, 65);
             this.A10.TabIndex = 3;
-            this.A10.Text = "A10";
             this.A10.UseVisualStyleBackColor = true;
+            this.A10.Click += new System.EventHandler(this.buttonClick);
             // 
             // A22
             // 
@@ -105,8 +105,8 @@
             this.A22.Name = "A22";
             this.A22.Size = new System.Drawing.Size(75, 65);
             this.A22.TabIndex = 8;
-            this.A22.Text = "A22";
             this.A22.UseVisualStyleBackColor = true;
+            this.A22.Click += new System.EventHandler(this.buttonClick);
             // 
             // A21
             // 
@@ -114,8 +114,8 @@
             this.A21.Name = "A21";
             this.A21.Size = new System.Drawing.Size(75, 65);
             this.A21.TabIndex = 7;
-            this.A21.Text = "A21";
             this.A21.UseVisualStyleBackColor = true;
+            this.A21.Click += new System.EventHandler(this.buttonClick);
             // 
             // A20
             // 
@@ -123,8 +123,8 @@
             this.A20.Name = "A20";
             this.A20.Size = new System.Drawing.Size(75, 65);
             this.A20.TabIndex = 6;
-            this.A20.Text = "A20";
             this.A20.UseVisualStyleBackColor = true;
+            this.A20.Click += new System.EventHandler(this.buttonClick);
             // 
             // NGButton
             // 
@@ -181,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(537, 457);
+            this.ClientSize = new System.Drawing.Size(443, 308);
             this.Controls.Add(this.Draw);
             this.Controls.Add(this.OWin);
             this.Controls.Add(this.XWin);
@@ -199,6 +199,7 @@
             this.Controls.Add(this.A00);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
         }
