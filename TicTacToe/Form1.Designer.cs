@@ -134,6 +134,7 @@
             this.NGButton.TabIndex = 9;
             this.NGButton.Text = "New Game";
             this.NGButton.UseVisualStyleBackColor = true;
+            this.NGButton.Click += new System.EventHandler(this.NGButton_Click);
             // 
             // RGButton
             // 
@@ -143,6 +144,7 @@
             this.RGButton.TabIndex = 10;
             this.RGButton.Text = "Reset";
             this.RGButton.UseVisualStyleBackColor = true;
+            this.RGButton.Click += new System.EventHandler(this.RGButton_Click);
             // 
             // EGButton
             // 
@@ -152,6 +154,7 @@
             this.EGButton.TabIndex = 11;
             this.EGButton.Text = "Exit Game";
             this.EGButton.UseVisualStyleBackColor = true;
+            this.EGButton.Click += new System.EventHandler(this.EGButton_Click);
             // 
             // XWin
             // 
